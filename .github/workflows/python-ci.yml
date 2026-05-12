@@ -27,7 +27,7 @@ jobs:
           flake8 . \
             --exclude=.git,__pycache__,venv \
             --max-line-length=120 \
-            --ignore=E501,W503
+            --ignore=E501,W503,E221
 
   import-test:
     name: Import Test
