@@ -9,8 +9,8 @@ else:
     DEVICE = "cpu"
 
 DRIVE_ROOT    = Path("/content/drive/MyDrive/CortexVision")
-DATA_DIR      = DRIVE_ROOT / "data" / "kaggle"
-FIGSHARE_DIR  = DRIVE_ROOT / "data" / "figshare"
+DATA_DIR      = DRIVE_ROOT / "data"/"brain-tumor-mri"
+FIGSHARE_DIR  = DRIVE_ROOT / "data"
 CKPT_DIR      = DRIVE_ROOT / "checkpoints"
 RESULT_DIR    = DRIVE_ROOT / "results"
 FIGURE_DIR    = DRIVE_ROOT / "figures"
