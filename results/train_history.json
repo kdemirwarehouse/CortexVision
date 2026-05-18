@@ -1,0 +1,83 @@
+[
+    {
+        "epoch": 1,
+        "train_loss": 0.502795,
+        "train_acc": 0.833193,
+        "val_loss": 0.186785,
+        "val_acc": 0.934524,
+        "learning_rate": 0.0001,
+        "epoch_time_sec": 1124.09
+    },
+    {
+        "epoch": 2,
+        "train_loss": 0.133391,
+        "train_acc": 0.956933,
+        "val_loss": 0.108504,
+        "val_acc": 0.970238,
+        "learning_rate": 9.938441702975689e-05,
+        "epoch_time_sec": 73.66
+    },
+    {
+        "epoch": 3,
+        "train_loss": 0.067951,
+        "train_acc": 0.978151,
+        "val_loss": 0.087872,
+        "val_acc": 0.971429,
+        "learning_rate": 9.755282581475769e-05,
+        "epoch_time_sec": 90.44
+    },
+    {
+        "epoch": 4,
+        "train_loss": 0.053459,
+        "train_acc": 0.982773,
+        "val_loss": 0.05903,
+        "val_acc": 0.979762,
+        "learning_rate": 9.45503262094184e-05,
+        "epoch_time_sec": 91.48
+    },
+    {
+        "epoch": 5,
+        "train_loss": 0.035739,
+        "train_acc": 0.988655,
+        "val_loss": 0.039042,
+        "val_acc": 0.989286,
+        "learning_rate": 9.045084971874738e-05,
+        "epoch_time_sec": 90.58
+    },
+    {
+        "epoch": 6,
+        "train_loss": 0.022477,
+        "train_acc": 0.992437,
+        "val_loss": 0.083237,
+        "val_acc": 0.980952,
+        "learning_rate": 8.535533905932738e-05,
+        "epoch_time_sec": 94.17
+    },
+    {
+        "epoch": 7,
+        "train_loss": 0.038478,
+        "train_acc": 0.988445,
+        "val_loss": 0.046194,
+        "val_acc": 0.979762,
+        "learning_rate": 7.938926261462366e-05,
+        "epoch_time_sec": 84.59
+    },
+    {
+        "epoch": 8,
+        "train_loss": 0.015116,
+        "train_acc": 0.994958,
+        "val_loss": 0.04522,
+        "val_acc": 0.988095,
+        "learning_rate": 7.269952498697734e-05,
+        "epoch_time_sec": 80.97
+    },
+    {
+        "epoch": 9,
+        "train_loss": 0.013176,
+        "train_acc": 0.995798,
+        "val_loss": 0.041509,
+        "val_acc": 0.986905,
+        "learning_rate": 6.545084971874738e-05,
+        "epoch_time_sec": 80.73
+    }
+]
