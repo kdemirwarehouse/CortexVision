@@ -9,7 +9,7 @@ else:
     DEVICE = "cpu"
 
 DRIVE_ROOT    = Path("/content/drive/MyDrive/CortexVision")
-DATA_DIR      = DRIVE_ROOT / "data" / "kaggle"
+DATA_DIR      = DRIVE_ROOT / "data" / "brain-tumor-mri"
 FIGSHARE_DIR  = DRIVE_ROOT / "data" / "figshare"
 CKPT_DIR      = DRIVE_ROOT / "checkpoints"
 RESULT_DIR    = DRIVE_ROOT / "results"
@@ -20,7 +20,7 @@ NUM_CLASSES   = len(CLASSES)
 CLASS_TO_IDX  = {cls: i for i, cls in enumerate(CLASSES)}
 IDX_TO_CLASS  = {i: cls for i, cls in enumerate(CLASSES)}
 
-EFF_MODEL     = "efficientnet_b4"
+EFF_MODEL     = "efficientnet_b0"
 SWIN_MODEL    = "swin_tiny_patch4_window7_224"
 FUSION_DIM    = 512
 NUM_HEADS     = 8
@@ -29,11 +29,11 @@ DROPOUT       = 0.3
 GRADCAM_LAYER = "efficientnet.blocks"
 
 IMAGE_SIZE    = 224
-BATCH_SIZE    = 32
-NUM_EPOCHS    = 30
+BATCH_SIZE    = 64
+NUM_EPOCHS    = 20
 LR            = 1e-4
 WEIGHT_DECAY  = 1e-2
-PATIENCE      = 5
+PATIENCE      = 4
 RANDOM_SEED   = 42
 
 CLASS_WEIGHTS = [1.2, 1.5, 1.0, 1.0]
